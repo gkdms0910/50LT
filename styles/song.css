@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    cursor: default;
+}
+
+.Desktop4 {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background: white;
+    margin: auto;
+}
+
+.Rectangle1 {
+    width: 1363px;
+    height: 768px;
+    position: absolute;
+    left: 38px;
+    top: 221px;
+    background: #96FF9F;
+    border-radius: 35px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 553px;
+    height: 160px;
+    position: absolute;
+    left: 50%; /* 중앙에 위치 */
+    top: 55%; /* 중앙에 위치 */
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: black;
+    font-size: 200px;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+    font-weight: 600;
+    cursor: pointer; /* 클릭 가능 표시 */
+    opacity: 0; /* 초기에는 보이지 않음 */
+    white-space: nowrap;
+    z-index: 3;
+}
+
+.Rectangle4 {
+    width: 1217px;
+    height: 686px;
+    position: absolute;
+    left: 111px;
+    top: 262px;
+    background: white;
+    border-radius: 35px;
+}
+
+.Rule {
+    position: absolute;
+    left: 149px;
+    top: 289px;
+    text-align: center;
+    font-size: 64px;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+    font-weight: 600;
+}
+
+.game-info {
+    text-align: center;
+    font-size: 48px;
+    color: black;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+}
+
+.game-info2 {
+    text-align: center;
+    font-size: 48px;
+    color: black;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+    white-space: nowrap;
+}
+
+.note {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+    white-space: nowrap;
+}
+
+.caution {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+    white-space: nowrap;
+}
+
+.logo{
+    position: absolute;
+    left: 100px;
+    top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+}
+.Lt {
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+}
+
+.Lt2 {
+    font-size: 27px;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+}
+
+.Lt3 {
+    font-size: 13px;
+    text-align: center;
+    color: black;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+}
+
+
+.up-text{
+    position: absolute;
+    left: 50%;
+    top: 473px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    opacity: 0;
+}
+
+.bottom-text{
+    position: absolute;
+    left: 50%;
+    top: 800px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    opacity: 0;
+}

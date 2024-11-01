@@ -1,0 +1,325 @@
+/* General Container */
+body{
+    user-select: none;
+    cursor: default;
+}
+.Desktop9 {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background: white;
+    margin: auto;
+  }
+  
+  /* Background Rectangles */
+  .Rectangle4 {
+    width: 1431px;
+    height: 1024px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #FF8686;
+    border-radius: 35px;
+  }
+  
+  .Rectangle5 {
+    width: 1440px;
+    height: 1024px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #FF8686;
+    border-radius: 35px;
+  }
+  
+  .Rectangle3 {
+    width: 1375px;
+    height: 972px;
+    left: 32px;
+    top: 26px;
+    position: absolute;
+    background: white;
+    border-radius: 35px;
+  }
+  
+  .Rectangle6 {
+    width: 1375px;
+    height: 972px;
+    left: 32px;
+    top: 26px;
+    position: absolute;
+    background: white;
+    border-radius: 35px;
+    border: 1px solid black;
+  }
+  
+  /* Text Elements */
+  .text-title {
+    width: 279px;
+    height: 85.57px;
+    left: 0;
+    top: 37.43px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+    font-weight: 600;
+    word-wrap: break-word;
+  }
+  .logo{
+    position: absolute;
+    left: 130px;
+    top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+}
+.Lt {
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+}
+
+.Lt2 {
+    font-size: 27px;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+}
+
+.Lt3 {
+    font-size: 13px;
+    text-align: center;
+    color: black;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+}
+  
+  /* Number Boxes */
+  .number-box {
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    border: 1px solid black;
+  }
+  
+  .number-4 { left: 1140px; top: 885px; }
+  .number-1 { left: 1008px; top: 885px; }
+  .number-2 { left: 1052px; top: 885px; }
+  .number-3 { left: 1096px; top: 885px; }
+  .number-5 { left: 1184px; top: 885px; }
+  .number-6 { left: 1228px; top: 885px; }
+  
+  .Rectangle11,
+  .Rectangle8,
+  .Rectangle9,
+  .Rectangle10,
+  .Rectangle12,
+  .Rectangle13 {
+    width: 41px;
+    height: 41px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+  }
+  
+  .number-text {
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+    font-weight: 600;
+    word-wrap: break-word;
+  }
+  
+  /* Arrows */
+  .Arrow1 {
+    width: 28px;
+    height: 0;
+    left: 1241px;
+    top: 950px;
+    position: absolute;
+    border: 5px solid black;
+  }
+  
+  .Arrow2 {
+    width: 28px;
+    height: 0;
+    left: 1040px;
+    top: 960px;
+    position: absolute;
+    transform: rotate(-180deg);
+    transform-origin: 0 0;
+    border: 5px solid black;
+  }
+  
+  /* Main Content */
+  .Content {
+    width: 671px;
+    height: 321px;
+    left: 384px;
+    top: 337px;
+    position: absolute;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Boxes and Keys */
+  .Box14,
+  .Box13,
+  .Box12,
+  .Box7,
+  .Box6,
+  .Box5 {
+    width: 213px;
+    height: 81px;
+    position: absolute;
+    background: white;
+    border: 2px solid black;
+  }
+  
+  .Box14 { left: 170px; top: 577px; }
+  .Box13 { left: 170px; top: 417px; }
+  .Box12 { left: 170px; top: 337px; z-index: 2;}
+  .Box7  { left: 1056px; top: 337px; }
+  .Box6  { left: 1056px; top: 497px; }
+  .Box5  { left: 1056px; top: 577px; }
+  
+  .Key4,
+  .Key2 {
+    width: 213px;
+    height: 81px;
+    position: absolute;
+    background: #FFE5B4;
+    border: 2px solid black;
+  }
+  
+  .Key4 { left: 170px; top: 497px; }
+  .Key2 { left: 1056px; top: 417px; }
+  
+  .Corner3,
+  .Corner2,
+  .Corner1 {
+    width: 215px;
+    height: 215px;
+    position: absolute;
+    background: #CFF0CC;
+    border-top-left-radius: 35px;
+    border: 2px solid black;
+  }
+  .Corner2{
+    border-bottom-right-radius: 10px;
+  }
+  .Corner3{
+    border-bottom-right-radius: 10px;
+  }
+  
+  .Corner3 { left: 170px; top: 123px; }
+  .Corner2 { left: 1054px; top: 123px; transform: rotate(90deg);}
+  .Corner1 { left: 1054px; top: 657px; transform: rotate(180deg);}
+  
+  .Box11,
+  .Box10,
+  .Box9,
+  .Box8,
+  .Box4,
+  .Box3,
+  .Box2,
+  .Box1 {
+    width: 135px;
+    height: 213px;
+    position: absolute;
+    background: white;
+    border: 2px solid black;
+  }
+  
+  .Box11 { left: 384px; top: 123px; }
+  .Box10 { left: 652px; top: 123px; }
+  .Box9  { left: 786px; top: 123px; }
+  .Box8  { left: 920px; top: 123px; z-index: 1;}
+  .Box4  { left: 920px; top: 657px; }
+  .Box3  { left: 652px; top: 657px; }
+  .Box2  { left: 518px; top: 657px; }
+  .Box1  { left: 384px; top: 657px; }
+  
+  .Key3,
+  .Key1 {
+    width: 135px;
+    height: 213px;
+    position: absolute;
+    background: #FFE5B4;
+    border: 2px solid black;
+  }
+  
+  .Key3 { left: 518px; top: 123px; }
+  .Key1 { left: 786px; top: 657px; }
+  
+  
+  /* Start Box */
+  .Start {
+    width: 215px;
+    height: 215px;
+    left: 170px;
+    top: 657px;
+    position: absolute;
+    background: #FFC1C1;
+    border-top-left-radius: 35px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    transform: rotate(-90deg);
+  }
+  
+  .start-text {
+    text-align: center;
+    color: black;
+    font-size: 64px;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+    font-weight: 600;
+    word-wrap: break-word;
+    transform: rotate(90deg);
+  }
+  
+  .pawn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    font-size: 11px;
+    color: white;
+    cursor: pointer;
+    border: 2px solid black;
+    z-index: 10;
+  }
+  
+  .game {
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+    font-weight: 600;
+    font-size: 80px;
+    display: none;
+    opacity: 0; /* 기본적으로 투명 */
+    z-index: 11;
+}
+
+.golden {
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+    font-weight: 600;
+    font-size: 80px;
+    display: none;
+    opacity: 0; /* 기본적으로 투명 */
+    z-index: 11;
+}
+

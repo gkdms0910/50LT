@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    cursor: default;
+}
+
+.Desktop1 {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background: white;
+    margin: auto;
+}
+
+.background-panel {
+    width: 311px;
+    height: 971px;
+    position: absolute;
+    left: 31px;
+    top: 27px;
+    background: #F8F8F8;
+    border-radius: 22px;
+}
+
+.main-title {
+    width: 523px;
+    height: 160px;
+    position: absolute;
+    left: 459px;
+    top: 138px;
+    text-align: center;
+    color: black;
+    font-size: 96px;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+    font-weight: 600;
+    word-wrap: break-word;
+    background: linear-gradient(90deg, #ff6ec4, #7873f5, #4ade80, #facc15, #f87171);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: rainbow 5s infinite;
+    background-size: 300% 300%;
+}
+/* 무지개 애니메이션 */
+@keyframes rainbow {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+.sub-title {
+    width: 231px;
+    height: 70px;
+    position: absolute;
+    left: 71px;
+    top: 68px;
+    text-align: center;
+    color: black;
+    font-size: 64px;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.name-card-wrapper {
+    position: absolute;
+    left: 56px;
+    top: 184px;
+}
+
+.name-card {
+    width: 261px;
+    height: 76px;
+    margin-bottom: 10px;
+    position: relative;
+    background: white;
+    border-radius: 22px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 33px;
+}
+
+.name {
+    width: 188px;
+    height: 30px;
+    position: absolute;
+    left: 36px;
+    top: 23px;
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    font-family: 'Gumi Romance TTF';
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.game-card-wrapper {
+    position: absolute;
+    left: 402px;
+    top: 353px;
+}
+
+.game-card {
+    width: 637px;
+    height: 100px;
+    margin-bottom: 27px;
+    position: relative;
+    background: #FFC0CB;
+    border-radius: 35px;
+    text-align: center;
+    color: black;
+    font-size: 48px;
+    font-family: 'Gumi Romance TTF';
+    font-weight: 400;
+    word-wrap: break-word;
+    line-height: 101px;
+}
+
+
+.game1 { background: #FFC0CB; }
+.game1:hover { background-color: #FF9BB5;}
+
+.game2 { background: #93BBFF; }
+.game2:hover { background-color: #729FEF; }
+
+.game3 { background: #96FF9F; }
+.game3:hover { background-color: #57CC70; }
+
+.game4 { background: #FFD186; }
+.game4:hover { background-color: #E0A659; }
+
+.game5 { background: #FF8686; }
+.game5:hover { background-color: #E25454; }
+
+
+.pink { background: #FFC0CB; }
+.blue { background: #93BBFF; }
+.green { background: #96FF9F; }
+.yellow { background: #FFD186; }
+.red { background: #FF8686; }
+
+.footer-text {
+    width: 306px;
+    height: 71px;
+    position: absolute;
+    left: 1077px;
+    top: 887px;
+    text-align: center;
+    color: black;
+    font-size: 48px;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.lt-title {
+    width: 444px;
+    height: 88px;
+    position: absolute;
+    left: 498px;
+    top: 68px;
+    text-align: center;
+    color: black;
+    font-size: 64px;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.team-name-card-wrapper {
+    position: absolute;
+    left: 1125px;
+    top: 222px;
+}
+
+.team-name-card {
+    width: 264px;
+    height: 74px;
+    margin-bottom: 30px;
+    border-radius: 35px;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+    font-weight: 600;
+    word-wrap: break-word;
+    line-height: 77px;
+}

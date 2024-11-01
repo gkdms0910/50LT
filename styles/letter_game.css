@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    cursor: default;
+}
+
+.Desktop6 {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background: white;
+    margin: auto;
+}
+
+.Rectangle1 {
+    width: 1363px;
+    height: 768px;
+    position: absolute;
+    left: 38px;
+    top: 221px;
+    background: #93BBFF;
+    border-radius: 35px;
+}
+
+.Rectangle2 {
+    width: 1217px;
+    height: 686px;
+    position: absolute;
+    left: 111px;
+    top: 262px;
+    background: white;
+    border-radius: 35px;
+    background-size: cover; /* 이미지 크기를 Rectangle1에 맞추기 */
+    background-position: center; /* 이미지를 중앙에 위치시키기 */
+}
+
+.title {
+    width: 553px;
+    height: 160px;
+    position: absolute;
+    left: 443px;
+    top: 33px;
+    text-align: center;
+    color: black;
+    font-size: 96px;
+    font-family: 'Gumi Romance TTF';
+    font-weight: 400;
+}
+
+.button-wrapper {
+    position: absolute;
+    top: 221px;
+    display: flex;
+    gap: 10px;
+    left: 927px;
+}
+
+.button {
+    width: 41px;
+    height: 41px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+    font-weight: 600;
+}
+
+.highlight {
+    background: #729FEF;
+    border-radius: 50%;
+}
+
+.logo{
+    position: absolute;
+    left: 100px;
+    top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+}
+.Lt {
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+}
+
+.Lt2 {
+    font-size: 27px;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+}
+
+.Lt3 {
+    font-size: 13px;
+    text-align: center;
+    color: black;
+    font-family: 'Hakgyoansim Dunggeunmiso OTF';
+}

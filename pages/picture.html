@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>home</title>
+        <link rel="stylesheet" href="../styles/picture.css">
+        <script defer src="../script/logo_move.js"></script>
+        <script defer src="../script/picture.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+        <script>
+            window.addEventListener('load', function() {
+                // 타이틀 초기 애니메이션 - 중앙에서 서서히 나타남
+                gsap.to("#picture-title", {
+                    duration: 1.5,
+                    opacity: 1,
+                    ease: "power2.out"
+                });
+        
+                // 타이틀 클릭 이벤트
+                document.getElementById("picture-title").addEventListener("click", function() {
+                    // 타이틀 애니메이션 - 원래 위치로 이동
+                    gsap.timeline()
+                        .to("#picture-title", {
+                            duration: 1,
+                            top: "33px",
+                            left: "443px",
+                            fontSize:"96px",
+                            transform: "translate(0, 0)",
+                            ease: "power2.inOut"
+                        })
+                        .to("#picture-rule", {
+                            duration: 1,
+                            opacity: 1,
+                            ease: "power2.inOut"
+                        }, "-=0.5"); // 타이틀 이동이 절반쯤 완료될 때 규칙이 서서히 나타남
+        
+                    // 다른 텍스트들도 순차적으로 서서히 나타남
+                    gsap.to(".up-text, .bottom-text", {
+                        duration: 1,
+                        opacity: 1,
+                        ease: "power2.inOut",
+                        delay: 1 // 타이틀 이동 후 나타남
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body data-color="#FFD186">
+        <div class="Desktop5">
+            <div class="Rectangle1"></div>
+            <div class="title" id="picture-title">그림 맞히기</div>
+            <div class="Rectangle3"></div>
+            <div class="Rule" id="picture-rule" style="opacity: 0;">RULE</div>
+            <div class="up-text">
+                <div class="description">조원 <span style="color: #CB8B00;">모두</span>가 얼굴에 <span style="color: #CB8B00;">고깔</span>을 쓰고</div><div
+                    class="description2">화면의 <span style="color: #CB8B00;">그림을 맞히면</span> 되는 답답한 게임 🐌</div>
+            </div>
+            <div class="bottom-text"><div class="hint"><span style="color: #CB8B00;">랜덤한 주제</span>를 뽑고 주제에 맞는 그림이
+                    나오니</div>
+                <div class="note"><span style="color: #CB8B00;">15초 동안</span> 신중히 바라보고 정답을 외쳐주세요!</div></div>
+
+            <div class="game-button" id="game_start">
+                <div class="Rectangle5"><div class="button-text">게임
+                        시작</div></div>
+
+            </div>
+            <div class="logo" id="logo"><div class="Lt">50기 LT</div>
+                <div class="Lt2">레크레이숀</div>
+                <div class="Lt3">made by 하 은</div></div>
+        </div>
+    </body>
+</html>
