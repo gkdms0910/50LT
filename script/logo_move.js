@@ -25,7 +25,7 @@ document.getElementById("logo").addEventListener("click", function() {
             ease: "power4.inOut",
             onComplete: function() {
                 // 애니메이션 완료 후 페이지 이동
-                window.location.href = "index.html";
+                window.location.href = "home.html";
             }
         });
 });
